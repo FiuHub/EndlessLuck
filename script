@@ -8,15 +8,6 @@ local ui = uiLoader({
 })
 
 --- Getgenv ---
-getgenv().multspeed1 = 1.5
-getgenv().multspeed2 = 0.3
-getgenv().singlespeed = 0.5
-getgenv().farm2 = 0
-getgenv().attempts = 15
-getgenv().farm_1b = false
-getgenv().farm_2b = false
-getgenv().farm_3b = false
-getgenv().farm_4b = false
 getgenv().farm_5b = false
 getgenv().farm_6b = false
 getgenv().farm_7b = false
