@@ -77,10 +77,16 @@ do
     end
 end
 
-   local menu = window:addMenu({
-        text = 'Farm'
-   })
-   do
+    local menu = window:addMenu({
+        text = 'Farming'
+    })
+    do
+    local section = menu:addSection({
+        text = 'First Area',
+        side = 'left',
+        showMinButton = true,
+    })
+   local toggle = section:addToggle({
             section:addLabel({
                text = '[!Flash Warning!]'
             })
